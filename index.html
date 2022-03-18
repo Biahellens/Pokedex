@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="src/images/pokebola.png" />
+  <link rel="stylesheet" href="src/styles/responsivo.css">
   <link rel="stylesheet" href="src/styles/reset.css">
   <link rel="stylesheet" href="src/styles/style.css">
   <link rel="stylesheet" href="src/styles/cartao.css">
@@ -17,7 +18,7 @@
     <div class="pokedex">
       <div class="cartoes-pokemon">
 
-        <div class="cartao-pokemon aberto tipo-eletrico">
+        <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">Pikachu</h2>
@@ -56,7 +57,7 @@
         </div>
 
 
-        <div class="cartao-pokemon tipo-grama">
+        <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">Bulbasaur</h2>
@@ -95,7 +96,7 @@
         </div>
 
 
-        <div class="cartao-pokemon tipo-agua">
+        <div class="cartao-pokemon tipo-agua" id="cartao-squirtle">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">Squirtle</h2>
@@ -134,7 +135,7 @@
         </div>
 
 
-        <div class="cartao-pokemon tipo-fogo">
+        <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">charmander</h2>
@@ -176,25 +177,26 @@
 
       <nav class="listagem">
         <ul>
-          <li class="pokemon ativo">
-            <img src="src/images/pikachu.png" alt="cabeça do pikachu" width="80px">
+          <li class="pokemon ativo" id="pikachu">
+            <img src="src/images/pikachu.png" alt="cabeça do pikachu"  width="80px">
             <span>Pikachu</span>
           </li>
-          <li class="pokemon">
-            <img src="src/images/bulbasaur.png" alt="cabeça do bulbasaur" width="80px">
+          <li class="pokemon" id="bulbasaur">
+            <img src="src/images/bulbasaur.png" alt="cabeça do bulbasaur"  width="80px">
             <span>Bulbasaur</span>
           </li>
-          <li class="pokemon">
-            <img src="src/images/squirtle.png" alt="cabeça do squirtle" width="80px">
+          <li class="pokemon" id="squirtle">
+            <img src="src/images/squirtle.png" alt="cabeça do squirtle"  width="80px">
             <span>Squirtle</span>
           </li>
-          <li class="pokemon">
-            <img src="src/images/charmander.png" alt="cabeça do charmander" width="80px">
+          <li class="pokemon" id="charmander">
+            <img src="src/images/charmander.png" alt="cabeça do charmander"  width="80px">
             <span>Charmander</span>
           </li>
         </ul>
       </nav>
     </div>
   </main>
+  <script src="src/js/index.js"></script>
 </body>
 </html>
