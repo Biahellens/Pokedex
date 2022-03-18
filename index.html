@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="src/images/pokebola.png" />
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/cartao.css">
+  <link rel="stylesheet" href="src/styles/listagem.css">
+
   <title>Pokédex</title>
 </head>
 <body>
@@ -11,7 +17,7 @@
     <div class="pokedex">
       <div class="cartoes-pokemon">
 
-        <div class="cartao-pokemon">
+        <div class="cartao-pokemon aberto tipo-eletrico">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">Pikachu</h2>
@@ -21,7 +27,7 @@
             <div class="tipo">raio</div>
 
             <div class="cartao-imagem">
-              <img src="src/images/pikachu.png" alt="Imagem do pikachu">
+              <img src="src/images/pikachu.png" alt="Imagem do pikachu" width="320px">
             </div>
           </div>
 
@@ -50,7 +56,7 @@
         </div>
 
 
-        <div class="cartao-pokemon">
+        <div class="cartao-pokemon tipo-grama">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">Bulbasaur</h2>
@@ -60,7 +66,7 @@
             <div class="tipo">grama</div>
 
             <div class="cartao-imagem">
-              <img src="src/images/bulbasaur.png" alt="Imagem do bulbasaur">
+              <img src="src/images/bulbasaur.png" alt="Imagem do bulbasaur" width="320px">
             </div>
           </div>
 
@@ -89,17 +95,17 @@
         </div>
 
 
-        <div class="cartao-pokemon">
+        <div class="cartao-pokemon tipo-agua">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">Squirtle</h2>
               <span>#0003</span>
             </div>
 
-            <div class="tipo">água</div>
+            <div class="tipo agua">água</div>
 
             <div class="cartao-imagem">
-              <img src="src/images/squirtle.png" alt="Imagem do squirtle">
+              <img src="src/images/squirtle.png" alt="Imagem do squirtle" width="320px">
             </div>
           </div>
 
@@ -128,17 +134,17 @@
         </div>
 
 
-        <div class="cartao-pokemon">
+        <div class="cartao-pokemon tipo-fogo">
           <div class="cartao-topo">
             <div class="detalhes">
               <h2 class="nome">charmander</h2>
               <span>#0004</span>
             </div>
 
-            <div class="tipo">fogo</div>
+            <div class="tipo fogo">fogo</div>
 
             <div class="cartao-imagem">
-              <img src="src/images/charmander.png" alt="Imagem do charmander">
+              <img src="src/images/charmander.png" alt="Imagem do charmander" width="320px">
             </div>
           </div>
 
@@ -170,20 +176,20 @@
 
       <nav class="listagem">
         <ul>
-          <li class=pokemon>
-            <img src="src/images/pikachu.png" alt="cabeça do pikachu">
+          <li class="pokemon ativo">
+            <img src="src/images/pikachu.png" alt="cabeça do pikachu" width="80px">
             <span>Pikachu</span>
           </li>
-          <li class=pokemon>
-            <img src="src/images/bulbasaur.png" alt="cabeça do bulbasaur">
+          <li class="pokemon">
+            <img src="src/images/bulbasaur.png" alt="cabeça do bulbasaur" width="80px">
             <span>Bulbasaur</span>
           </li>
-          <li class=pokemon>
-            <img src="src/images/squirtle.png" alt="cabeça do squirtle">
+          <li class="pokemon">
+            <img src="src/images/squirtle.png" alt="cabeça do squirtle" width="80px">
             <span>Squirtle</span>
           </li>
-          <li class=pokemon>
-            <img src="src/images/charmander.png" alt="cabeça do charmander">
+          <li class="pokemon">
+            <img src="src/images/charmander.png" alt="cabeça do charmander" width="80px">
             <span>Charmander</span>
           </li>
         </ul>
